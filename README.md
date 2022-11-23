@@ -9,3 +9,7 @@ The biggest problem that I faced during this project was the lack of data. Since
 If I had the chance to go back, I would not have done this project this way. I think a better alternative to my original method would be a simulation where I analyzed average ticket price and average daily tickets to project sales per day and extended that over one year with the same variables.
 
 ## Python
+I wrote this Python code for a project to show where the probabilities converge for different bets in a Craps game.
+
+## SAS
+I wrote this SAS code to determine the statistical significance between graduation and retention rates of on- and off-campus students.
