@@ -1,0 +1,47 @@
+---
+title: "Sales_Prediction"
+output: pdf
+date: "2022-10-15"
+author: "Derrick Pope"
+---
+
+Here are the R packages we will use in this project.
+
+```{r}
+library(readr)
+library(tidyverse)
+library(dplyr)
+library(leaps)
+library(ggplot2)
+```
+
+Now we can read in the data from the existing stores.
+
+```{r}
+storedata = read.csv("StoreData.csv", header=TRUE)
+
+store = storedata[,2:5]
+str(store)
+```
+```{r}
+leaps = regsubsets(Sales~Population + Median_Income + Traffic, data=store, method="exhaustive")
+summary(leaps)
+```
+```{r}
+#Performance measures
+  cbind (
+    Cp = summary(leaps)$cp,
+    r2 = summary(leaps)$rsq,
+    Adj_r2 = summary(leaps)$adjr2,
+    BIC = summary(leaps)$bic
+  )
+```
+```{r}
+fit = lm(Sales ~ Traffic + Population + Median_Income, data=store)
+summary(fit)
+```
+```{r}
+lehighton = data.frame(Population = 5278, Traffic = 16680, Median_Income = 50083)
+answer = predict(fit, newdata = lehighton, interval = "prediction", level=.95)
+answer
+```
