@@ -6,7 +6,7 @@ I wrote this R code to predict the total sales for a new location for a small bu
 
 The biggest problem that I faced during this project was the lack of data. Since the small business that I worked for was only opened 5 years ago, there were an insufficient number of observations to provide a truly accurate forecast.
 
-If I had the chance to go back, I would not have done this project this way. I think a better alternative to my original method would be a simulation where I analyzed average ticket price and average daily tickets to project sales per day and extended that over one year with the same variables.
+If I had the chance to go back, I would not have done this project this way. I think a better alternative to my original method would be a simulation where I analyzed average ticket price and average daily tickets to project sales per day and extend that over one year using the same variables.
 
 ## Python
 I wrote this Python code for a project to show where the probabilities converge for different bets in a Craps game.
