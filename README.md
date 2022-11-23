@@ -16,7 +16,7 @@ I wanted to show a little bit of everything in this project. This project shows 
 ## SAS
 I wrote this SAS code to determine the statistical significance between graduation and retention rates of on- and off-campus students.
 
-To me, this is my best project to date. I was given the opportunity to collaborate with my classmates on a major project for East Stroudsburg University. I was assigned as the leader of the statistical analysis group where I wrote the code above. We wanted to determine if housing had an impact on graduation and retention rates at our school. When we presented this project, I was extremely pleased with the reactions from the university's administration. I believe they were blown the results.
+To me, this is my best project to date. I was given the opportunity to collaborate with my classmates on a major project for East Stroudsburg University. I was assigned as the leader of the statistical analysis group where I wrote the code above. We wanted to determine if housing had an impact on graduation and retention rates at our school. When we presented this project, I was extremely pleased with the reactions from the university's administration. I believe they were blown the results, and were able to use our findings to make decisions about the university's future.
 
 ## Author
 Thank you for taking the time to read about my projects. I hope this can add some context to the goals of my code.
