@@ -15,6 +15,6 @@ I wrote this Python code for a project to show where the probabilities converge 
 I wrote this SAS code to determine the statistical significance between graduation and retention rates of on- and off-campus students.
 
 ## Author
-Derrick Pope
-
 Thank you for taking the time to read about my projects. I hope this can add some context to the goals of my code.
+
+Derrick Pope
