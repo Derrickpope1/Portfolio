@@ -11,6 +11,8 @@ If I had the chance to go back, I would not have done this project this way. I t
 ## Python
 I wrote this Python code for a project to show where the probabilities converge for different bets in a Craps game.
 
+I wanted to show a little bit of everything in this project. This project shows my familiarity with Jupyter Notebooks, HTML, imbedding images, matplotlib, probability, and basic Python coding.
+
 ## SAS
 I wrote this SAS code to determine the statistical significance between graduation and retention rates of on- and off-campus students.
 
